@@ -22,11 +22,12 @@ inputField1.placeholder="Enter you name"
     
     let inputField2 = document.createElement("input")
     inputField2.type="number"
-inputField1.name="year"
-    inputField1.id = "year"
+inputField2.name="year"
+    inputField2.id = "year"
     inputField2.placeholder="year"
     
 let formBtn = document.createElement("button")
+formBtn.id="button"
 formBtn.innerHTML = "Sumbit"
 
 formBtn.addEventListener("click",()=>{
